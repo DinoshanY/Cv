@@ -1,0 +1,43 @@
+@media only screen and (max-width: 600px) {
+    body {
+        columns: 4;
+        margin: 16px;
+        background-size: auto;
+    }
+}
+
+@media only screen and (max-width: 905px) {
+    body {
+        columns: 8;
+        margin: 32px;
+        background-size: auto;
+    }
+}
+
+@media only screen and (max-width: 1240) {
+    body {
+        columns: 12;
+        margin: auto;
+        background-size: 840px;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    body {
+        columns: 12;
+        margin: 200;
+        background-size: auto;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    body {
+        columns: 12;
+        margin: auto;
+        background-size: 1040px;
+    }
+}
+
+body {
+    min-width: 600;
+}
